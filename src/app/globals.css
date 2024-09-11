@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+    --off-white: #EDE8F5;
+    --gray-light: #ADBBDA;
+    --gray-dark: #8697c4;
+    --blue-light: #7091e6;
+    --blue-dark: #3d52a0;
+    
+}
+
