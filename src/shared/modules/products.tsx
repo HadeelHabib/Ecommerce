@@ -1,16 +1,18 @@
 'use client'
 import { IMGS } from "@/utils/imgs"
+import { Image } from "@nextui-org/react"
 
 const Products = () => {
-    
+
   return (
     <div className="md:my-5">
-
-      <span className="custom-bg">{IMGS.product1}</span>
-      <span className="custom-bg">{IMGS.product2}</span>
-      <span className="custom-bg">{IMGS.product3}</span>
-      <span className="custom-bg">{IMGS.product4}</span>
-      <span className="custom-bg">{IMGS.product5}</span>
+        <div className="md:flex">
+      <span className="custom-bg"><Image src={IMGS.product1} alt="" /> </span>
+      <span className="custom-bg"><Image src={IMGS.product2} alt="" /></span>
+      <span className="custom-bg"><Image src={IMGS.product3} alt="" /></span>
+      <span className="custom-bg"><Image src={IMGS.product4} alt="" /></span>
+      <span className="custom-bg"><Image src={IMGS.product5} alt="" /></span>
+      </div>
     </div>
   )
 }
