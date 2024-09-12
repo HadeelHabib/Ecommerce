@@ -43,13 +43,13 @@ const NavBar = () => {
         </div> */}
  
 
-<div className="">
+<div className="fixed md:top-[80px] z-[100] w-full">
   <Navbar
   
-    isBordered
+    
     isMenuOpen={isMenuOpen}
     onMenuOpenChange={setIsMenuOpen}
-    className="md:h-[48px] sm:h-[60px] h-[60px] "
+    className="md:h-[48px]  sm:h-[60px] h-[60px] "
   >
     <NavbarContent className="md:hidden" justify="start">
       <NavbarMenuToggle aria-label={isMenuOpen ? "Close menu" : "Open menu"} />
