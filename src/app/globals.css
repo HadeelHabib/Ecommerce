@@ -9,8 +9,6 @@
     --gray-dark: #8697c4;
     --blue-light: #7091e6;
     --blue-dark: #3d52a0;
-    
-
 }
 .transperant-theme{
     mix-blend-mode: luminosity;
@@ -18,16 +16,74 @@
 }
 
 .custom-bg{
-    display: inline-block;
     width: 180px;
     height: 180px;
     background-color: #f6f7f9;
-    ;
     background-image: radial-gradient(95.56% 95.56% at 50% 50%, #fff 0, #bddeff 100%);
     border-radius: 50%;
     text-align: center;
-    display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
+    display:flex;
+    align-items: center;
+    cursor:pointer;
+}
+.img-hover:hover{
+    transform: scale(1.1);
+    transition: all .3s
+    
+}
+
+.product-bunner-1{
+   background: url("../assets/product-banner-1.b6611c92-_1_.jpeg");
+   background-position: 90%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 8px;
+   cursor:pointer;
+   
+}
+.product-bunner-1:hover , .product-bunner-2:hover {
+    transform: scale(1.05);
+    transition: all;
+    
+}
+
+.product-bunner-2{
+    background: url("../assets/product-banner-2.f1357985.jpg");
+    background-position: 90%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.subscribe-input input{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(1, 15, 28, .1);
+    border-radius: 8px;
+    border: 0;
+    padding-left: 20px;
+    z-index:1;
+}
+
+.subscribe-input button{
+    right: 0;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    box-shadow: 0 1px 2px rgba(1, 15, 28, .1);
+    padding: 18px 40px;
+    background-color: #010f1c;
+    z-index: 1;
+    
+    
+}
+
+a:hover {
+    color: #0989ff;
+    transition: all;
 }

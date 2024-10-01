@@ -5,6 +5,7 @@ import { Providers } from "./providers";
 import { Poppins } from "next/font/google";
 import { ThemeProvider } from "@/utils/theme-provider";
 import NavBar from "@/shared/widgets/header/navbar";
+import Footer from "@/shared/widgets/footer";
 
 
 export const metadata: Metadata = {
@@ -36,6 +37,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <NavBar />
           {children}
+          <Footer/>
           </ThemeProvider>
         </Providers>
       </body>

@@ -26,7 +26,7 @@ const NavBar = () => {
   };
   
   return (
-    <div className="border-b fixed w-full">
+    <div className="border-b w-full bg-white">
       <div className="bg-white">
         <Header/>
       </div>
@@ -43,13 +43,13 @@ const NavBar = () => {
         </div> */}
  
 
-<div className="fixed md:top-[80px] z-[100] w-full">
+<div className="md:top-[80px] w-full ">
   <Navbar
   
     
     isMenuOpen={isMenuOpen}
     onMenuOpenChange={setIsMenuOpen}
-    className="md:h-[48px]  sm:h-[60px] h-[60px] "
+    className="md:h-[48px] md:top-[80px] fixed sm:h-[60px] h-[60px] dark:bg-[#00000089] bg-white"
   >
     <NavbarContent className="md:hidden" justify="start">
       <NavbarMenuToggle aria-label={isMenuOpen ? "Close menu" : "Open menu"} />
@@ -58,7 +58,7 @@ const NavBar = () => {
     </NavbarContent>
     <NavbarContent className="hidden sm:flex gap-4" justify="center">
       <NavbarBrand>
-        <p className="md:hidden font-bold text-inherit">Zoffero</p>
+        <p className="md:hidden font-bold font-Nerko_One text-[25px]">Zoffero</p>
       </NavbarBrand>
       <Dropdown className="">
           <NavbarItem>
@@ -127,7 +127,7 @@ const NavBar = () => {
           ))}
        </NavbarContent>
     <NavbarContent justify="end">
-      <NavbarItem className="hidden lg:flex">
+      <NavbarItem className=" lg:flex">
         <Link href="#">Login</Link>
       </NavbarItem>
       <NavbarItem>

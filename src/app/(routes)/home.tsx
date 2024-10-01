@@ -1,4 +1,4 @@
-import Hero from '@/shared/modules/root/hero'
+import Hero from '@/shared/modules/hero'
 import React from 'react'
 
 const Home = () => {

@@ -1,10 +1,12 @@
 
 import { BiSearch } from "react-icons/bi";
 import { CgProfile } from "react-icons/cg";
-import { CiHeart } from "react-icons/ci";
+import { CiFacebook, CiHeart } from "react-icons/ci";
+import { FaArrowRightLong, FaFacebookF, FaInstagram, FaLinkedin, FaLinkedinIn, FaSkype, FaTwitter, FaVimeoV } from "react-icons/fa6";
 import { GoSun } from "react-icons/go";
-import { IoIosArrowBack, IoIosArrowDropleft, IoIosArrowDropright, IoIosArrowForward } from "react-icons/io";
+import { IoLocationOutline } from "react-icons/io5";
 import { LuMoonStar } from "react-icons/lu";
+import { MdOutlineMailOutline } from "react-icons/md";
 import { VscListSelection } from "react-icons/vsc";
 
 
@@ -15,9 +17,12 @@ moon : <LuMoonStar />,
 sun : <GoSun />,
 profile: <CgProfile  size={25}/>,
 list: <VscListSelection size={20} />,
-rightIcon: <IoIosArrowBack size={40} fill="white" className=" cursor-pointer opacity-10 hover:bg-[#ffffff29] rounded-full" />,
-leftICON: <IoIosArrowForward size={40} fill="white" className=" cursor-pointer opacity-[0.5px] hover:bg-[#ffffff29] rounded-full" />
-
-
+arrow: <FaArrowRightLong />,
+email:<MdOutlineMailOutline size={20}/>,
+locations: <IoLocationOutline size={20}/>,
+facebook: <FaFacebookF />,
+vimeo: <FaVimeoV />,
+linkedin: <FaLinkedinIn />,
+twitter: <FaTwitter />,
 
 };

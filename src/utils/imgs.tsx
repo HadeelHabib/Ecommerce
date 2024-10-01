@@ -7,6 +7,12 @@ import product2 from "@/assets/product-cat-2.png"
 import product3 from "@/assets/product-cat-3.png"
 import product4 from "@/assets/product-cat-4.png"
 import product5 from "@/assets/product-cat-5.png"
+import productBanner1 from "@/assets/product-banner-1.b6611c92-_1_.jpeg"
+import productBanner2 from "@/assets/product-banner-2.f1357985.jpg"
+import mobile from "@/assets/mobile-5.jpg"
+import bgNewsletters from "@/assets/subscribe-shape-1.png"
+import plane from "@/assets/plane.png"
+import news2 from "@/assets/image-_9_.png"
 
 export const IMGS: any = {
 bg,
@@ -18,4 +24,10 @@ product2,
 product3,
 product4,
 product5,
+productBanner1,
+productBanner2,
+mobile,
+bgNewsletters,
+plane,
+news2,
 };
