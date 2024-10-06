@@ -128,7 +128,7 @@ const NavBar = () => {
        </NavbarContent>
     <NavbarContent justify="end">
       <NavbarItem className=" lg:flex">
-        <Link href="#">Login</Link>
+        <Link href="/login">Login</Link>
       </NavbarItem>
       <NavbarItem>
         <Button className="md:flex hidden hover:bg-[#000]" as={Link} color="primary" href="#" variant="flat">

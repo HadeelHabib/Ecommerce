@@ -4,7 +4,8 @@ import { ICONS } from "@/utils/icons";
 
 const Footer = () => {
   return (
-    <div className="xl:w-[80%] w-[90%] text-left md:mt-5 h-[200px] mx-auto grid md:grid-cols-4 sm:grid-cols-2 justify-between mt-[30px]">
+    <div className="bg-[#F4F7F9] pt-[20px]">
+    <div className="xl:w-[80%]  w-[90%] text-left md:mt-5 h-[200px] mx-auto grid md:grid-cols-4 sm:grid-cols-2 justify-between mt-[30px]">
       <div className="">
         <h1 className="font-[500] text-[34px] font-Nerko_One ">Zoffero.</h1>
         <p className="text-[#55585b]">
@@ -67,6 +68,7 @@ const Footer = () => {
           <h3>79 Lattakia Syria</h3>
         </div>
       </div>
+    </div>
     </div>
   );
 };
