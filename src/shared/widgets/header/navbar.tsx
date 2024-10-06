@@ -1,8 +1,7 @@
 'use client'
-import Link from "next/link"
 import Header from "./header"
 import { useState } from "react";
-import { Button, Dropdown, DropdownItem, DropdownMenu, DropdownTrigger, ModalContent, Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenu, NavbarMenuItem, NavbarMenuToggle, User } from "@nextui-org/react";
+import { Button, Dropdown, DropdownItem, DropdownMenu, DropdownTrigger, Link, ModalContent, Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenu, NavbarMenuItem, NavbarMenuToggle, User } from "@nextui-org/react";
 import { navItems } from "@/configs/constants";
 import { BiChevronDown } from "react-icons/bi";
 import { SlCalender } from "react-icons/sl";
