@@ -1,7 +1,7 @@
 'use client'
 import Header from "./header"
 import { useState } from "react";
-import { Button, Dropdown, DropdownItem, DropdownMenu, DropdownTrigger, Link, ModalContent, Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenu, NavbarMenuItem, NavbarMenuToggle, User } from "@nextui-org/react";
+import { Button, Dropdown, DropdownItem, DropdownMenu, DropdownTrigger, ModalContent, Navbar, NavbarBrand, NavbarContent, NavbarMenu, NavbarMenuItem, NavbarMenuToggle, User } from "@nextui-org/react";
 import { navItems } from "@/configs/constants";
 import { BiChevronDown } from "react-icons/bi";
 import { SlCalender } from "react-icons/sl";
@@ -10,6 +10,7 @@ import { FcFlashAuto } from "react-icons/fc";
 import { LiaLightbulb } from "react-icons/lia";
 import { SiMoonrepo, SiP5Dotjs } from "react-icons/si";
 import { ICONS } from "@/utils/icons";
+import Link from "next/link";
 
 
 const NavBar = () => {
@@ -60,7 +61,7 @@ const NavBar = () => {
         <p className="md:hidden font-bold font-Nerko_One text-[25px]">Zoffero</p>
       </NavbarBrand>
       <Dropdown className="">
-          <NavbarItem>
+          <div>
             <DropdownTrigger>
               <Button
                 disableRipple
@@ -73,7 +74,7 @@ const NavBar = () => {
                 All departments
               </Button>
             </DropdownTrigger>
-          </NavbarItem>
+          </div>
           <DropdownMenu
             aria-label="All departments"
             className="w-[300px]"
@@ -115,25 +116,23 @@ const NavBar = () => {
         </Dropdown>
       {navItems.map((i:any,index:number)=>(
             <div className="">
-              <NavbarItem>
               <Link className='px-4' 
               key={index} 
               href={i.url}>
                 {i.title}
                 </Link>
-                </NavbarItem>
                 </div>
           ))}
        </NavbarContent>
     <NavbarContent justify="end">
-      <NavbarItem className=" lg:flex">
+      <div className=" lg:flex">
         <Link href="/login">Login</Link>
-      </NavbarItem>
-      <NavbarItem>
+      </div>
+      <div>
         <Button className="md:flex hidden hover:bg-[#000]" as={Link} color="primary" href="#" variant="flat">
           Sign Up
         </Button>
-      </NavbarItem>
+      </div>
     </NavbarContent>
     <NavbarMenu>
       {navItems.map((item, index) => (
