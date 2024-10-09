@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Nerko_One } from "next/font/google";
+import { Inter, Jost, Nerko_One } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./providers";
 import { Poppins } from "next/font/google";
@@ -9,8 +9,8 @@ import Footer from "@/shared/widgets/footer";
 
 
 export const metadata: Metadata = {
-  title: "",
-  description: "",
+  title: "Zoffero",
+  description: "Made by Hadeel habib",
 };
 
 const nerko_one = Nerko_One({
@@ -25,6 +25,12 @@ const poppins = Poppins({
   variable: "--font-Poppins",
 });
 
+const jost = Jost ({
+  subsets: ["latin"],
+  weight: ["500" , "700"],
+  variable: "--font-jost"
+})
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -32,7 +38,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${nerko_one.variable} ${poppins.variable}`}>
+      <body className={`${nerko_one.variable} ${poppins.variable} ${jost.variable}`}>
         <Providers>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <NavBar />

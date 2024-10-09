@@ -13,7 +13,10 @@ import mobile from "@/assets/mobile-5.jpg"
 import bgNewsletters from "@/assets/subscribe-shape-1.png"
 import plane from "@/assets/plane.png"
 import news2 from "@/assets/image-_9_.png"
-
+import login1 from "@/assets/login-shape-1.png"
+import login2 from "@/assets/login-shape-2.png"
+import login3 from "@/assets/login-shape-3.png"
+import login4 from "@/assets/login-shape-4.png"
 export const IMGS: any = {
 bg,
 slider,
@@ -30,4 +33,8 @@ mobile,
 bgNewsletters,
 plane,
 news2,
+login1,
+login2,
+login3,
+login4,
 };

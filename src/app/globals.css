@@ -87,3 +87,27 @@ a:hover {
     color: #0989ff;
     transition: all;
 }
+
+.float-item{
+    position: absolute;
+    inset: 50% auto auto 50%;
+    width:70%;
+    margin: auto;
+    background: rgb(255, 255, 255);
+    overflow: auto;
+    border-radius: 10px;
+    position: fixed;
+    outline: none;
+    padding: 20px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: calc(100% - 300px);
+ 
+}
+
+.form-wrapper{
+    box-shadow: 0 30px 70px rgba(1, 15, 28, .1);
+    background-color: #fff;
+    border-top: none;
+
+}

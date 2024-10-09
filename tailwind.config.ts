@@ -14,7 +14,8 @@ const config: Config = {
     extend: {
       fontFamily:{
         Poppins: ["var(--font-Poppins)"],
-        Nerko_One: ["var(--font-nerko)"]
+        Nerko_One: ["var(--font-nerko)"],
+        jost: ["var(--font-jost)"]
       },
     },
   },

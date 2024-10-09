@@ -14,7 +14,9 @@ import Link from "next/link";
 
 
 const NavBar = () => {
+
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   const icons = {
     chevron: <BiChevronDown fill="currentColor" size={16} />,
     scale: <SlCalender className="text-warning" fill="currentColor" size={30} />,
@@ -129,7 +131,7 @@ const NavBar = () => {
         <Link href="/login">Login</Link>
       </div>
       <div>
-        <Button className="md:flex hidden hover:bg-[#000]" as={Link} color="primary" href="#" variant="flat">
+        <Button className="md:flex hidden hover:bg-[#000]" as={Link} color="primary" href="/signup" variant="flat">
           Sign Up
         </Button>
       </div>
