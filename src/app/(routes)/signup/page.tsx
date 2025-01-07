@@ -90,12 +90,12 @@ const Page = () => {
           </span>
             <div className="flex mt-4">
               <input className=" relative left-0" type="checkbox" />
-              <span className="pl-1">I accept the terms of the service & Privecy policy.</span>
+              <span className="pl-1">I accept the terms of the service & Privacy policy.</span>
             </div>
           
           
         </div>
-        <Button className="bg-[#000] !rounded-none text-[#fff] w-full py-[25px] hover:bg-[#0989FF]">
+        <Button className="bg-[#000] text-[22px] !rounded-none text-[#fff] w-full py-[25px] hover:bg-[#0989FF]">
           Sign up
         </Button>
       </div>

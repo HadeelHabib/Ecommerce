@@ -10,7 +10,7 @@ import NewsLetters from "./newsletters";
 
 const Root = () => {
   return (
-    <>
+    <div className="bg-white dark:bg-[#2A2D3E]">
     <Hero/>
     <Products/>
     <Features/>
@@ -18,7 +18,7 @@ const Root = () => {
     <ShopNow/>
     <NewArrival/>
     <NewsLetters/>
-    </>
+    </div>
   );
 };
 

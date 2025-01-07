@@ -17,6 +17,9 @@ import login1 from "@/assets/login-shape-1.png"
 import login2 from "@/assets/login-shape-2.png"
 import login3 from "@/assets/login-shape-3.png"
 import login4 from "@/assets/login-shape-4.png"
+import headphone1 from "@/assets/headphone-1.png"
+import mobile5 from "@/assets/mobile-5.png"
+
 export const IMGS: any = {
 bg,
 slider,
@@ -37,4 +40,6 @@ login1,
 login2,
 login3,
 login4,
+headphone1,
+mobile5,
 };

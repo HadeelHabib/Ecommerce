@@ -2,10 +2,10 @@
 import { BiSearch } from "react-icons/bi";
 import { CgProfile } from "react-icons/cg";
 import { CiFacebook, CiHeart } from "react-icons/ci";
-import { FaArrowRightLong, FaFacebookF, FaInstagram, FaLinkedin, FaLinkedinIn, FaSkype, FaTwitter, FaVimeoV } from "react-icons/fa6";
+import { FaArrowRightLong, FaFacebookF, FaInstagram, FaLinkedin, FaLinkedinIn, FaPlus, FaRegWindowMinimize, FaSkype, FaTwitter, FaVimeoV } from "react-icons/fa6";
 import { GoSun } from "react-icons/go";
 import { IoMdClose } from "react-icons/io";
-import { IoLocationOutline } from "react-icons/io5";
+import { IoHomeOutline, IoLocationOutline } from "react-icons/io5";
 import { LuMoonStar } from "react-icons/lu";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { VscListSelection } from "react-icons/vsc";
@@ -25,6 +25,9 @@ facebook: <FaFacebookF />,
 vimeo: <FaVimeoV />,
 linkedin: <FaLinkedinIn />,
 twitter: <FaTwitter />,
-close: <IoMdClose />
+close: <IoMdClose />,
+plus: <FaPlus />,
+minus: <FaRegWindowMinimize />,
+home:<IoHomeOutline />,
 
 };

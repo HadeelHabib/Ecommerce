@@ -39,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${nerko_one.variable} ${poppins.variable} ${jost.variable}`}>
-        <Providers>
+      <Providers>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <NavBar />
           {children}

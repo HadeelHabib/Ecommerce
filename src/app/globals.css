@@ -31,7 +31,7 @@
 }
 .img-hover:hover{
     transform: scale(1.1);
-    transition: all .3s
+    transition: .5s;   
     
 }
 
@@ -46,7 +46,7 @@
 }
 .product-bunner-1:hover , .product-bunner-2:hover {
     transform: scale(1.05);
-    transition: all;
+    transition: .5s;
     
 }
 
@@ -85,7 +85,7 @@
 
 a:hover {
     color: #0989ff;
-    transition: all;
+    transition: .5s;
 }
 
 .float-item{
@@ -110,4 +110,13 @@ a:hover {
     background-color: #fff;
     border-top: none;
 
+}
+thead th{
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--tp-common-black);
+    border: 0 !important;
+    padding-top: 9px !important;
+    padding-bottom: 9px !important;
+    
 }

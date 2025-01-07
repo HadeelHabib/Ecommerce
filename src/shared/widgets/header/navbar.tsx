@@ -60,7 +60,7 @@ const NavBar = () => {
     </NavbarContent>
     <NavbarContent className="hidden sm:flex gap-4" justify="center">
       <NavbarBrand>
-        <p className="md:hidden font-bold font-Nerko_One text-[25px]">Zoffero</p>
+        <Link href={"/home"} className="md:hidden font-bold font-Nerko_One text-[25px]">Zoffero</Link>
       </NavbarBrand>
       <Dropdown className="">
           <div>

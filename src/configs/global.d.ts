@@ -14,8 +14,10 @@ type Prop = {
 }
 
 
+
 type trendingPart = {
   img: any,
+  secondImg: any,
   type: string,
   description: string,
   rating: number ,
@@ -23,4 +25,5 @@ type trendingPart = {
   previewsPrice: number,
   newPrice: number,
   category: string,
+  explain: string,
 }

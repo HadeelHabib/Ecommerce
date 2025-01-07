@@ -31,7 +31,7 @@ const Page = () => {
         alt=""
         className="absolute hidden lg:inline xl:left-[75%] lg:left-[83%] bottom-[-80px]"
       />
-      <div className="text-center mb-10">
+      <div className="text-center mb-10 ">
         <h1 className="font-[500] text-[44px] mb-[6px] text-[#000000e6]">
           Login
         </h1>
@@ -41,7 +41,7 @@ const Page = () => {
         <span className="inline-block p-[1.5px] mx-1 mt-2 bg-[#a8acb0] rounded-full"></span>
         <span>Login</span>
       </div>
-      <div className="mt-5 form-wrapper relative xl:w-[40%] md:w-[60%] w-full mx-auto pt-[50px] px-5 sm:px-10 pb-[70px] bg-[#fff] text-center mb-[40px]">
+      <div className="mt-5 form-wrapper relative xl:w-[40%] md:w-[60%] w-[95%] mx-auto pt-[50px] px-5 sm:px-10 pb-[70px] bg-[#fff] text-center mb-[40px]">
         <h1 className="font-[500] text-[30px] mb-[4px]">
           Login to <span className="font-Nerko_One text-[35px]">Zoffero.</span>
         </h1>
@@ -90,7 +90,7 @@ const Page = () => {
             </Link>
           </div>
         </div>
-        <Button className="bg-[#000] !rounded-none text-[#fff] w-full py-[25px] hover:bg-[#0989FF]">
+        <Button className="bg-[#000] text-[22px] !rounded-none text-[#fff] w-full py-[25px] hover:bg-[#0989FF]">
           Login
         </Button>
       </div>

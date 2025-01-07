@@ -2,6 +2,7 @@ import { ICONS } from "@/utils/icons";
 import { ThemeSwitcher } from "@/utils/themeswitcher";
 import { Badge } from "@mui/material";
 import { Navbar } from "@nextui-org/react";
+import Link from "next/link";
 import { BiHeart } from "react-icons/bi";
 
 const Header = () => {
@@ -18,7 +19,7 @@ const Header = () => {
   return (
       <div className="h-[80px] z-[99] w-full fixed bg-white dark:bg-[#000] py-4 border-b md:block hidden">
         <div className="md:flex hidden w-full m-auto justify-around items-center ">
-          <h1 className="font-[500] text-[34px] font-Nerko_One ">Zoffero.</h1>
+          <Link href={"/home"} className="font-[500] text-[34px] font-Nerko_One ">Zoffero.</Link>
           <div className="h-[45px] bg-transparent relative">
             <input
               type="search"

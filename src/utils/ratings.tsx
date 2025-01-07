@@ -9,7 +9,7 @@ const Ratings = ({ rating }: { rating: number }) => {
       stars.push(
         <AiFillStar
           key={i}
-          size={20}
+          size={15}
           color="#f6b100"
           className="mr-2 cursor-pointer"
         />
@@ -18,7 +18,7 @@ const Ratings = ({ rating }: { rating: number }) => {
       stars.push(
         <BsStarHalf
           key={i}
-          size={17}
+          size={15}
           color="#f6ba00"
           className="mr-2 cursor-pointer"
         />
@@ -27,7 +27,7 @@ const Ratings = ({ rating }: { rating: number }) => {
       stars.push(
         <AiOutlineStar
           key={i}
-          size={20}
+          size={15}
           color="#f6ba00"
           className="mr-2 cursor-pointer"
         />
