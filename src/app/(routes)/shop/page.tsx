@@ -1,18 +1,27 @@
 "use client";
+import { ICONS } from "@/utils/icons";
 import { IMGS } from "@/utils/imgs";
+import { SVGS } from "@/utils/svgs";
 import { Rating } from "@mui/material";
 import {
+  Button,
   Checkbox,
   CheckboxGroup,
+  Dropdown,
+  DropdownItem,
+  DropdownMenu,
+  DropdownTrigger,
   ScrollShadow,
   Slider,
 } from "@nextui-org/react";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 
 const Page = () => {
   const [value, setValue] = React.useState([0, 1199]);
+  const [option, setOption] = useState("Default Sorting");
+  const [open, setOpen] = useState(true)
 
   return (
     <div className="md:w-[80%] mx-auto">
@@ -26,6 +35,7 @@ const Page = () => {
         <span className="inline-block p-[1.5px] mx-1 mt-2 bg-[#a8acb0] rounded-full"></span>
         <span className="text-[#55585b] ">Shop Grid</span>
       </div>
+      <div className="flex ">
       <div className="md:flex items-center justify-between ">
         <div className="">
           <Slider
@@ -151,7 +161,9 @@ const Page = () => {
                 />
                 <div className="ml-6">
                   <Rating value={4} />
-                  <Link href={"/"} className="text-[#010f1c] block">HeadPhones Wireless...</Link>
+                  <Link href={"/"} className="text-[#010f1c] block">
+                    HeadPhones Wireless...
+                  </Link>
                   <span className="text-[#55585b] text-[14px]">$120.000</span>
                 </div>
               </div>
@@ -163,19 +175,46 @@ const Page = () => {
                 />
                 <div className="ml-6">
                   <Rating value={4} />
-                  <Link href={"/"} className="text-[#010f1c] block">Iphone 14 pro...</Link>
+                  <Link href={"/"} className="text-[#010f1c] block">
+                    Iphone 14 pro...
+                  </Link>
                   <span className="text-[#55585b] text-[14px]">$120.000</span>
                 </div>
               </div>
             </div>
             <div className="">
-            <h3 className="font-[500] text-[18px] border-b border-[#eee] pb-[5px] mb-[25px]">
+              <h3 className="font-[500] text-[18px] border-b border-[#eee] pb-[5px] mb-[25px]">
                 Reset Filter
               </h3>
-              <button className="font-jost text-[16px] font-[400] py-[9px] px-[26px] border border-[#010f1c] text-[#fff] bg-[#010f1c] hover:bg-[#fff] hover:text-[#010f1c] transition duration-[600ms]">Reset Filter</button>
-            </div> 
+              <button className="font-jost text-[16px] font-[400] py-[9px] px-[26px] border border-[#010f1c] text-[#fff] bg-[#010f1c] hover:bg-[#fff] hover:text-[#010f1c] transition duration-[600ms]">
+                Reset Filter
+              </button>
+            </div>
           </div>
         </div>
+      </div>
+      <div className="ml-[20px] flex items-start w-[70%]">
+        <button className="hover:text-[#000] transition duration[600.s] hover:border-[#000] w-[40px] pl-[10px] h-[40px] text-center text-[18px] border border-[#010F1C1A] text-[#010f1c6a] rounded-none">
+          {SVGS.option1}
+        </button>
+        <button className="hover:text-[#000]  transition duration[600.s] hover:border-[#000] w-[40px] pl-[10px] ml-[12px] !pr-[6px] h-[40px] text-center text-[18px] border text-[#010f1c6a] border-[#010F1C1A] rounded-none">
+          {SVGS.option2}
+        </button>
+        <div className="relative left-[70%] flex items-center gap-2">
+        <Dropdown >
+      <DropdownTrigger>
+        <Button onClick={()=>setOpen(!open)} variant="bordered" className="!rounded-none border-[#010F1C1A]  border px-[30px] bg-[#F9F9F9]">{option}{" "}{open === true ? ICONS.up : ICONS.down}</Button>
+      </DropdownTrigger>
+      <DropdownMenu aria-label="Example with disabled actions" disabledKeys={["edit", "delete"]}>
+        <DropdownItem onClick={()=>setOption("Default Sorting")} key="Default sorting">Default Sorting</DropdownItem>
+        <DropdownItem onClick={()=>setOption("Low To High")} key="Low To High">Low To High</DropdownItem>
+        <DropdownItem onClick={()=>setOption("New Added")} key="New Added">Edit file</DropdownItem>
+        <DropdownItem onClick={()=>setOption("On Sale")} key="On Sale" >On Sale</DropdownItem>
+      </DropdownMenu>
+    </Dropdown>
+   <button className="bg-[#0b0c0c] text-white hover:text-[#010f1c] hover:bg-[white] border border-[#010f1c] px-[30px] py-[8px]"><span className="flex items-center">{ICONS.option}Filter</span></button>
+    </div>
+      </div>
       </div>
     </div>
   );
