@@ -2,7 +2,7 @@ import React from 'react'
 
 const Feature :React.FC<Prop>= ({icon,title,subtitle}) => {
   return (
-    <div className='pt-[29px] px-[40px] pb-[20px] bg-[#f6f7f9] my-4'>
+    <div className='pt-[29px] px-[40px] pb-[20px] bg-[#f6f7f9] dark:bg-[#575757] my-4'>
         <div className="flex justify-around items-center">
             <span className='text-[#fd4b6b] mr-2'>{icon}</span>
             <div className="">

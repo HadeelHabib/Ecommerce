@@ -29,6 +29,11 @@
     align-items: center;
     cursor:pointer;
 }
+
+.custom2-bg{
+    background: #000;
+}
+
 .img-hover:hover{
     transform: scale(1.1);
     transition: .5s;   
@@ -120,3 +125,19 @@ thead th{
     padding-bottom: 9px !important;
     
 }
+.animated-pic{
+   animation: spin 3s linear infinite;
+
+}
+
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+
+  

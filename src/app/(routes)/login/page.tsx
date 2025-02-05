@@ -10,7 +10,7 @@ const Page = () => {
   const [showPassword, setShowPassword] = useState(false);
 
   return (
-    <div className="w-full mt-[15%] bg-[#FFFFFF] font-jost">
+    <div className="w-full mt-[15%] bg-[#FFFFFF] dark:bg-black dark:text-white font-jost">
       <Image
         src={IMGS.login1}
         alt=""
@@ -32,7 +32,7 @@ const Page = () => {
         className="absolute hidden lg:inline xl:left-[75%] lg:left-[83%] bottom-[-80px]"
       />
       <div className="text-center mb-10 ">
-        <h1 className="font-[500] text-[44px] mb-[6px] text-[#000000e6]">
+        <h1 className="font-[500] text-[44px] mb-[6px] dark:text-white text-[#000000e6]">
           Login
         </h1>
         <Link href={"/"} className="">
@@ -41,7 +41,7 @@ const Page = () => {
         <span className="inline-block p-[1.5px] mx-1 mt-2 bg-[#a8acb0] rounded-full"></span>
         <span>Login</span>
       </div>
-      <div className="mt-5 form-wrapper relative xl:w-[40%] md:w-[60%] w-[95%] mx-auto pt-[50px] px-5 sm:px-10 pb-[70px] bg-[#fff] text-center mb-[40px]">
+      <div className="mt-5 form-wrapper relative  xl:w-[40%] md:w-[60%] w-[95%] mx-auto pt-[50px] dark:bg-[#0C1518] px-5 sm:px-10 pb-[70px] bg-[#fff] text-center mb-[40px]">
         <h1 className="font-[500] text-[30px] mb-[4px]">
           Login to <span className="font-Nerko_One text-[35px]">Zoffero.</span>
         </h1>
@@ -53,12 +53,12 @@ const Page = () => {
         </p>
         <div className="relative ">
           <hr />
-          <p className="absolute top-[-10px] left-[50%] translate-x-[-50%] bg-white px-3">
+          <p className="absolute top-[-10px] left-[50%] dark:text-black translate-x-[-50%] bg-white px-3">
             or Sign in with Email
           </p>
         </div>
         <div className="relative mt-10 py-[20px]">
-          <p className="absolute top-[10px] left-[10px] text-[14px] leading-[1] bg-white px-3">
+          <p className="absolute top-[10px] dark:text-[#040708] left-[10px] text-[14px] leading-[1] bg-white px-3">
             Your email
           </p>
           <input
@@ -66,7 +66,7 @@ const Page = () => {
             type="email"
             placeholder="Zoffero@mail.com"
           />
-          <p className="absolute left-[10px] bottom-[105px] text-[14px] leading-[1] bg-white px-3">
+          <p className="absolute dark:text-[#040708] left-[10px] bottom-[105px] text-[14px] leading-[1] bg-white px-3">
             Password
           </p>
           <input

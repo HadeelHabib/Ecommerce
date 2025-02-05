@@ -12,13 +12,9 @@ export const navItems: NavItem[] = [
         url: "/about",
     },
     {
-        title: "Pages",
-        url: "/pages",
-    },
-    {
-        title: "News",
-        url: "/news",
-    },    
+        title: "Shop",
+        url: "/shop",
+    },   
     {
         title: "Contact",
         url: "/contact",

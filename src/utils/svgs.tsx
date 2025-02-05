@@ -103,15 +103,12 @@ export const SVGS ={
     -86 12 -105 -4 -9 -7 -18 -10 -22 -6 -16 16 34 36 80 33 31 -3 45 -1 39 5 -11
     11 -85 6 -117 -7 -19 -8 -19 -7 -2 11 12 13 32 19 62 19 40 0 44 2 39 20 -3
     11 -13 27 -21 35 -13 13 -15 13 -11 0z"/>
-    <path d="M585 350 c-14 -6 -5 -9 35 -9 39 -1 51 2 40 9 -18 12 -48 12 -75 0z"/>
-    <path d="M725 245 c-3 -8 -7 -21 -9 -29 -3 -8 -22 -17 -43 -19 -21 -2 -7 -3
-    30 -1 51 3 82 12 124 34 l56 30 -77 0 c-59 0 -78 -3 -81 -15z"/>
-    <path d="M1473 229 c-18 -12 -33 -23 -33 -25 0 -2 27 -4 60 -4 66 0 81 17 35
-    38 -31 14 -24 16 -62 -9z"/>
-    <path d="M300 225 c-103 -30 -136 -44 -110 -44 47 -2 309 42 304 51 -8 13
-    -144 8 -194 -7z"/>
+   
+
     </g>
     </svg>,
     option1: <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.3327 6.01341V2.98675C16.3327 2.04675 15.906 1.66675 14.846 1.66675H12.1527C11.0927 1.66675 10.666 2.04675 10.666 2.98675V6.00675C10.666 6.95341 11.0927 7.32675 12.1527 7.32675H14.846C15.906 7.33341 16.3327 6.95341 16.3327 6.01341Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M16.3327 15.18V12.4867C16.3327 11.4267 15.906 11 14.846 11H12.1527C11.0927 11 10.666 11.4267 10.666 12.4867V15.18C10.666 16.24 11.0927 16.6667 12.1527 16.6667H14.846C15.906 16.6667 16.3327 16.24 16.3327 15.18Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M7.33268 6.01341V2.98675C7.33268 2.04675 6.90602 1.66675 5.84602 1.66675H3.15268C2.09268 1.66675 1.66602 2.04675 1.66602 2.98675V6.00675C1.66602 6.95341 2.09268 7.32675 3.15268 7.32675H5.84602C6.90602 7.33341 7.33268 6.95341 7.33268 6.01341Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M7.33268 15.18V12.4867C7.33268 11.4267 6.90602 11 5.84602 11H3.15268C2.09268 11 1.66602 11.4267 1.66602 12.4867V15.18C1.66602 16.24 2.09268 16.6667 3.15268 16.6667H5.84602C6.90602 16.6667 7.33268 16.24 7.33268 15.18Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>,
    option2: <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 7.11108H1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M15 1H1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M15 13.2222H1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>, 
+   
+      
 }

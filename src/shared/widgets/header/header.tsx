@@ -17,9 +17,9 @@ const Header = () => {
   //  }
   // }
   return (
-      <div className="h-[80px] z-[99] w-full fixed bg-white dark:bg-[#000] py-4 border-b md:block hidden">
+      <div className="h-[80px] z-[99] w-full fixed bg-white dark:bg-[#132328] py-4 border-b md:block hidden">
         <div className="md:flex hidden w-full m-auto justify-around items-center ">
-          <Link href={"/home"} className="font-[500] text-[34px] font-Nerko_One ">Zoffero.</Link>
+          <Link href={"/"} className="font-[500] text-[34px] font-Nerko_One ">Zoffero.</Link>
           <div className="h-[45px] bg-transparent relative">
             <input
               type="search"

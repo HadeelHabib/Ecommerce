@@ -18,9 +18,9 @@ const ShowProduct = ({
 
   return (
     <div className="relative w-full bg-opacity-75 bg-white shadow-md">
-      <div className="float-item ">
-        <div className="">
-          <div className="px-[20px] pt-[20px] relative">
+      <div className="float-item dark:bg-[#112026]">
+        <div className="dark:bg-[#112026]">
+          <div className="px-[20px] py-[20px] relative">
             <span
               onClick={() => setOpen(!open)}
               className="absolute right-[20px] text-[25px] cursor-pointer"

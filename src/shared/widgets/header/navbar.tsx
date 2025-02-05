@@ -51,7 +51,7 @@ const NavBar = () => {
     
     isMenuOpen={isMenuOpen}
     onMenuOpenChange={setIsMenuOpen}
-    className="md:h-[48px] md:top-[80px] fixed sm:h-[60px] h-[60px] dark:bg-[#00000089] bg-white"
+    className="md:h-[48px] md:top-[80px] fixed sm:h-[60px] h-[60px] dark:bg-[#1323289c]  bg-white"
   >
     <NavbarContent className="md:hidden" justify="start">
       <NavbarMenuToggle aria-label={isMenuOpen ? "Close menu" : "Open menu"} />

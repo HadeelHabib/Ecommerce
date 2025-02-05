@@ -10,7 +10,7 @@ import NewsLetters from "./newsletters";
 
 const Root = () => {
   return (
-    <div className="bg-white dark:bg-[#2A2D3E]">
+    <div className="bg-[rgb(231,241,250)] dark:bg-[#1323289c]">
     <Hero/>
     <Products/>
     <Features/>

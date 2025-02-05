@@ -7,7 +7,7 @@ import React from 'react'
 const NewsLetters = () => {
   return (
     <div>
-      <div className="bg-[#0989ff] w-full sm:h-[250px] my-[5%] ">
+      <div className="bg-[#0989ff] dark:bg-[#0988ff6a] w-full sm:h-[250px] mt-[5%] ">
         <Image className='absolute  opacity-[.1] transperant-theme' src={IMGS.bgNewsletters} alt=''/>
         <div className="py-[5%] xl:flex justify-between items-center w-[80%] mx-auto">
             <div className="text-[#fff] ">

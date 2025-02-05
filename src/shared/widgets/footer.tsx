@@ -4,11 +4,11 @@ import { ICONS } from "@/utils/icons";
 
 const Footer = () => {
   return (
-    <div className="bg-[#F4F7F9] pt-[20px]">
+    <div className="bg-[#F4F7F9] pt-[20px] mt-4 dark:bg-[#13232830] dark:text-white">
     <div className="xl:w-[80%]  w-[90%] text-left md:mt-5  mx-auto grid md:grid-cols-4 sm:grid-cols-2 justify-between mt-[30px]">
       <div className="">
         <h1 className="font-[500] text-[34px] font-Nerko_One ">Zoffero.</h1>
-        <p className="text-[#55585b]">
+        <p className="text-[#55585b] dark:text-white">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <br /> Consectetur maxime quisquam dolor no
         </p>
@@ -20,10 +20,10 @@ const Footer = () => {
         </div>
       </div>
       <div className="">
-        <h1 className="font-[700] text-[20px] text-[#010f1c] mb-[10px]">
+        <h1 className="font-[700] text-[20px] text-[#010f1c] dark:text-white mb-[10px]">
           My Account
         </h1>
-        <ul className="text-[#55585b]">
+        <ul className="text-[#55585b] dark:text-white">
           <li>
             <Link href={"#"}>Track Orders</Link>
           </li>
@@ -36,10 +36,10 @@ const Footer = () => {
         </ul>
       </div>
       <div className="">
-        <h1 className="font-[700] text-[20px] text-[#010f1c] mb-[10px]">
+        <h1 className="font-[700] text-[20px] text-[#010f1c] dark:text-white mb-[10px]">
           Informations
         </h1>
-        <ul className="text-[#55585b]">
+        <ul className="text-[#55585b] dark:text-white">
           <li>
             <Link href={"#"}>Our story</Link>
           </li>
@@ -52,10 +52,10 @@ const Footer = () => {
         </ul>
       </div>
       <div className="">
-        <h1 className="font-[700] text-[20px] text-[#010f1c] mb-[10px]">
+        <h1 className="font-[700] text-[20px] text-[#010f1c] dark:text-white mb-[10px]">
           Talk To Us
         </h1>
-        <span className="text-[#55585b]">
+        <span className="text-[#55585b] dark:text-white">
           Got Quistions?
           <br /> Call us
         </span>

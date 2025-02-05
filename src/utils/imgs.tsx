@@ -19,6 +19,9 @@ import login3 from "@/assets/login-shape-3.png"
 import login4 from "@/assets/login-shape-4.png"
 import headphone1 from "@/assets/headphone-1.png"
 import mobile5 from "@/assets/mobile-5.png"
+import contact1 from "@/assets/contact-icon-1.png"
+import contact2 from "@/assets/contact-icon-2.png"
+import contact3 from "@/assets/contact-icon-3.png"
 
 export const IMGS: any = {
 bg,
@@ -42,4 +45,7 @@ login3,
 login4,
 headphone1,
 mobile5,
+contact1,
+contact2,
+contact3,
 };
